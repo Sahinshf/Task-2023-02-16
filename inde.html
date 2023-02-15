@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="car_section">
+      <div class="car">
+        <div class="car_input">
+          <input
+            type="text"
+            class="car_input_brand car_inputs box_color"
+            placeholder="Brand : "
+          />
+          <input
+            type="text"
+            class="car_input_model car_inputs box_color"
+            placeholder="Model : "
+          />
+          <input
+            type="number"
+            class="car_input_year car_inputs box_color"
+            placeholder="Year : "
+          />
+          <input
+            type="text"
+            class="car_input_description car_inputs box_color"
+            placeholder="Description : "
+          />
+          <div class="car_input_check car_inputs">
+            <p style="color: white">Is New ?</p>
+            <input type="checkbox" class="car_input_checkbox" />
+          </div>
+          <p class="car_input_warning_message"></p>
+          <button type="submit" class="car_input_submit car_inputs box_color">
+            Submit
+          </button>
+        </div>
+      </div>
+
+      <table class="car_table">
+        <thead>
+          <tr class="car_table_head">
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Is New ?</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <!-- <tr>
+                <td>${item.id}</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> -->
+        </tbody>
+      </table>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>

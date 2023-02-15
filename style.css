@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: rgb(24, 26, 27);
+}
+
+.car_section {
+  display: flex;
+  margin-top: 60px;
+}
+
+.box_color {
+  background-color: beige;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.584);
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.584);
+}
+
+.car {
+  width: 100%;
+  max-width: 700px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.car_input {
+  display: flex;
+  flex-direction: column;
+}
+.car_input_check {
+  display: flex;
+}
+.car_input_checkbox {
+  margin-left: 10px;
+}
+.car_inputs {
+  padding: 10px;
+  margin: 5px 0;
+}
+.car_table {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+th,
+td {
+  text-align: center;
+  border: 2px solid rgb(221, 208, 200);
+  padding: 10px;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+}/*# sourceMappingURL=style.css.map */
